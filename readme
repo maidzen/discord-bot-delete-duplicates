@@ -1,0 +1,10 @@
+Discord bot, to delete Duplicate messages of all text channels in a given Category.
+
+
+### Features
+
+- DMs User if a post gets deleted
+- Caches messages locally to avoid to many requests to discord api
+- auto.Loads last 200 messages of each textchat in local cache on startup
+
+
