@@ -22,7 +22,7 @@ const client = new Client({
 
 const categoryID = "1345887600489267202";
 const botTestChannelId = "1346245584226357258";
-let msgCache: Object;
+let msgCache;
 
 client.on(Events.ClientReady, async (readyClient) => {
   console.log(`Logged in as ${readyClient.user.tag}!`);
